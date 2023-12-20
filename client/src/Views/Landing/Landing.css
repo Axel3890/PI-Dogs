@@ -1,0 +1,46 @@
+.background {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('../../utils/fondolanding.jpg');
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px;
+}
+
+.bienvenida {
+  text-align: center;
+  background-color: orange; /* Agregar fondo de color naranja */
+  padding: 20px; /* Agregar espacio interno dentro del div bienvenida */
+  border-radius: 10px; /* Opcional: para darle esquinas redondeadas */
+  margin-left: 100px;
+  height: 30%;
+  width: 30%;
+}
+
+.landing-button {
+  padding: 10px 20px;
+  border: unset;
+  border-radius: 10px;
+  color: #212121;
+  background: #e8e8e8;
+  font-weight: 1000;
+  font-size: 16px;
+  transition: all 250ms;
+}
+
+.landing-button:hover {
+  color: #e8e8e8;
+  background-color: #212121;
+}
+
+.perros {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-right: 50px;
+  margin-bottom: 20px;
+}
+
+  
